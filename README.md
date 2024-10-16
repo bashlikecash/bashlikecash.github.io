@@ -1,4 +1,4 @@
-# portfolio.github.io
+# Welcome, I'm Sebastian.
 For portfolio class Fall 2024
 
 I want to add the color #F4EEDE as the background.
