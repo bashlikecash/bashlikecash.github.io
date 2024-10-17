@@ -11,6 +11,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <style>
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+        }
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
         p.header {
             font-family: "Poppins", sans-serif;
             font-weight: 400;
@@ -26,6 +36,22 @@
     </style>
 </head>
 <body class="bg-[#f4EEDE] text-black">
+
+<div class="row">
+    <div class="column" style="p.body">
+        <h2>Column 1</h2>
+        <p>I sprouted as a young, earnest artist with starry eyes and a menagerie of hobbies and random supplies. 
+        As my curiosities have flourished I've nested comfortably into just calling myself an artist and 
+        allowing my work to change as I do. My most recent endeavor has been to study creative coding and sonic 
+        arts at Portland Community College.</p>
+    </div>
+  
+    <div class="column">
+        <h2>Column 2</h2>
+        <p>Some text..</p>
+    </div>
+</div>
+    
     <p class = "header">
         Welcome, my name is Sebastian.
     </p>
@@ -33,7 +59,7 @@
         I sprouted as a young, earnest artist with starry eyes and a menagerie of hobbies and random supplies. 
         As my curiosities have flourished I've nested comfortably into just calling myself an artist and 
         allowing my work to change as I do. My most recent endeavor has been to study creative coding and sonic 
-        arts at Portland Community College."
+        arts at Portland Community College.
     </p>
 </body>
 </html>
